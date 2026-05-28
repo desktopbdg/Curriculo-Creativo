@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículo Creativo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="lock-screen" id="lockScreen">
+    <div class="lock-clock-area">
+      <div class="lock-time" id="lockTime">00:00</div>
+      <div class="lock-date" id="lockDate"></div>
+    </div>
+    <div class="login-area">
+      <div class="login-avatar">
+        <img src="imgs/avatar.jpg">
+      </div>
+      <div class="login-name">Beatriz</div>
+      <div class="login-row">
+        <input type="password" class="login-input" id="loginInput" placeholder="Senha" autocomplete="off">
+        <button class="login-arrow" id="loginBtn">
+          <img src="imgs/angle-right-solid.png">
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="desktop" id="desktop">
+    <div class="icon-area" id="iconArea"></div>
+    <div id="windowsArea"></div>
+
+    <div class="start-menu" id="startMenu">
+      <div class="start-menu-header">
+        <img class="start-menu-avatar" src="imgs/avatar.jpg">
+        <div>
+          <div class="start-menu-name">Beatriz</div>
+          <div class="start-menu-email">aluno224168@epad.edu.pt</div>
+        </div>
+      </div>
+      <input type="text" class="start-menu-search" id="startSearch" placeholder="Pesquisar...">
+      <div class="start-menu-list" id="startList"></div>
+      <div class="start-menu-footer">
+        <button class="logout-btn" id="logoutBtn"><img id="powerOff" src="imgs/power-off-solid.png"><span id="logoutText">Sair</span></button>
+      </div>
+    </div>
+
+    <div class="taskbar">
+      <div class="taskbar-left">
+        <button class="taskbar-btn start-btn" id="startBtn" title="Start">
+          <img src="imgs/windows-brands-solid.png">
+        </button>
+      </div>
+      <div class="taskbar-center" id="taskbarPins"></div>
+      <div class="taskbar-right">
+        <button class="lang-toggle" id="langBtn">PT</button>
+        <div class="taskbar-separator"></div>
+        <div class="weather-area" id="weatherArea">
+          <img id="weatherIcon" src="imgs/cloud-sun-solid.png">
+        </div>
+        <div class="taskbar-separator"></div>
+        <div class="clock-area">
+          <div class="clock-time" id="clockTime">00:00</div>
+          <div class="clock-date" id="clockDate"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="context-menu" id="contextMenu"></div>
+  <script src="style1.js"></script>
+  <script src="style2.js"></script>
+  <script src="style3.js"></script>
+  
+</body>
+</html>
